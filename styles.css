@@ -1,0 +1,57 @@
+body {
+    background-color: #f8f9fa;
+    color: #333;
+  }
+  .navbar-bottom {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #e9ecef;
+    border-top: 1px solid #dee2e6;
+    z-index: 1000;
+  }
+  .navbar-bottom .nav-link {
+    color: #333;
+  }
+  .navbar-bottom .nav-link.active {
+    color: #0d6efd;
+  }
+  .form-control, .form-select {
+    border-color: #ced4da;
+  }
+  .form-control:focus, .form-select:focus {
+    border-color: #86b7fe;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+  }
+  .form-check-input:checked {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+  }
+  .form-check-input:focus {
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+  }
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+  .btn-primary {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+  }
+  .btn-primary:hover {
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+  }
+  .text-center {
+    text-align: center;
+  }
+  .qr-code-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  .btn-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Add some space between the buttons */
+  }
